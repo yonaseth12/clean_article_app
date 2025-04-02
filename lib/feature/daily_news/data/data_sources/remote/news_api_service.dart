@@ -5,7 +5,7 @@ import 'package:clean_article_app/feature/daily_news/data/models/article.dart';
 
 part 'news_api_service.g.dart';
 
-@RestApi(baseUrl: newsAPIBaseUrl)
+@RestApi(baseUrl: Constants.newsAPIBaseUrl)
 abstract class NewsApiService {
   factory NewsApiService(Dio dio) = _NewsApiService;
 
