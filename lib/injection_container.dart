@@ -8,7 +8,7 @@ import "package:clean_article_app/feature/daily_news/data/data_sources/remote/ne
 
 final sl = GetIt.instance;
 
-Future<void> initialDependencies() async {
+Future<void> initializeDependencies() async {
 
   //Dio
   sl.registerSingleton<Dio>(Dio());
