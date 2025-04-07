@@ -14,7 +14,7 @@ class _NewsApiService implements NewsApiService {
     this.baseUrl,
     this.errorLogger,
   }) {
-    baseUrl ??= 'https://newsapi.org/vs';
+    baseUrl ??= 'https://newsapi.org/v2';
   }
 
   final Dio _dio;
