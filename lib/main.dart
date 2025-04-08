@@ -9,6 +9,7 @@ import "package:clean_article_app/feature/daily_news/presentation/bloc/article/r
 
 void main() async {
   await dotenv.load(fileName: ".env");
+  WidgetsFlutterBinding.ensureInitialized();
   await initializeDependencies();
   runApp(const MyApp());
 }

@@ -43,6 +43,7 @@ dependencies:
   flutter_hooks: ^0.21.2
   cached_network_image: ^3.4.1
   flutter_dotenv: ^5.2.1
+  sqflite_common_ffi_web: ^0.4.5+4
 
 dev_dependencies:
   flutter_test:
